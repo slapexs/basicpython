@@ -43,3 +43,11 @@ weight = [1,2,3]
 
 for x,y,z in zip(fruits, prices, weight):
     print(x,"->",y, "->", z)
+
+
+'''
+    นับจำนวนตัวอักษร
+    .count(value)
+'''
+msg = ["aa", "ab", "abc", "aabc"]
+print(msg[0].count("a")) # 2
