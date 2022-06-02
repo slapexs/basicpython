@@ -42,3 +42,9 @@ if 4>5 or 4<2:
     print(True)
 else:
     print(False)
+
+numbers_list = [1,2,3,4]
+if 4 in numbers_list:
+    print("IN")
+
+print("OUT") if 5 not in numbers_list else print("IN")
