@@ -1,0 +1,10 @@
+ID:0,score:user1000
+ID:1,score:user1001
+ID:2,score:user1002
+ID:3,score:user1003
+ID:4,score:user1004
+ID:5,score:user1005
+ID:6,score:user1006
+ID:7,score:user1007
+ID:8,score:user1008
+ID:9,score:user1009
