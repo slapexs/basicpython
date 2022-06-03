@@ -42,8 +42,8 @@ for i in lines:
 
 
 '''
-    สร้างไฟล์ใหม่
-    variable = open(*file, "r", encoding)
+    สร้างไฟล์ใหม่ (เขียนทับทั้งหมด)
+    variable = open(*file, "w", encoding)
     variable.write(data)
     variable.close()
 '''
