@@ -65,3 +65,23 @@ for i in range(10):
     data = "\nscore:" + str(i)
     fadd.write(data)
 fadd.close()
+
+
+'''
+    Delete file
+    require
+        - import os
+
+    os.remove(*file)
+'''
+
+import os
+try:
+    if os.path.exists('fordel.txt'):
+        os.remove('fordel.txt')
+        print("Deleted")
+    else:
+        # print("File not found")
+        raise Exception("Not found")
+except Exception as e:
+    print("Error->", e)
