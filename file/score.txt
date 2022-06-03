@@ -1,2 +1,13 @@
 [["Yuna", 55], ["Yeji", 65]]This is example score
 New line
+This text from append mode
+score:0
+score:1
+score:2
+score:3
+score:4
+score:5
+score:6
+score:7
+score:8
+score:9

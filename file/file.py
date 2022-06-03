@@ -23,6 +23,7 @@
 fr = open("student.txt", "r", encoding="utf-8")
 print(fr) # <_io.TextIOWrapper name='file/student.txt' mode='r' encoding='cp1252'>
 print(fr.read()) # Student file นี่คือภาษาไทย
+fr.close()
 
 # with open("student.txt", "r", encoding="utf8") as file:
 #     text = file.read()
@@ -52,3 +53,15 @@ fw.write("[[\"Yuna\", 55], [\"Yeji\", 65]]") # score.txt -> [["Yuna", 55], ["Yej
 fw.writelines("This is example score\n")
 fw.write("New line")
 fw.close()
+
+
+'''
+    เพิ่มข้อมูลต่อท้าย
+    x = open(*file, *"a", encoding)
+'''
+fadd = open("score.txt", "a", encoding='utf-8')
+fadd.writelines("\nThis text from append mode")
+for i in range(10):
+    data = "\nscore:" + str(i)
+    fadd.write(data)
+fadd.close()
