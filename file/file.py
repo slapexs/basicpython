@@ -20,9 +20,6 @@
 '''
     อ่านไฟล์
 '''
-from base64 import encode
-
-
 fr = open("student.txt", "r", encoding="utf-8")
 print(fr) # <_io.TextIOWrapper name='file/student.txt' mode='r' encoding='cp1252'>
 print(fr.read()) # Student file นี่คือภาษาไทย
@@ -30,6 +27,18 @@ print(fr.read()) # Student file นี่คือภาษาไทย
 # with open("student.txt", "r", encoding="utf8") as file:
 #     text = file.read()
 #     print(text)
+
+
+frl = open('score.txt', 'r', encoding='utf-8')
+# line = frl.readline()
+# print(line) # [["Yuna", 55], ["Yeji", 65]]This is example score
+lines = frl.readlines()
+for i in lines:
+    print("->", i)
+    '''
+        -> [["Yuna", 55], ["Yeji", 65]]This is example score
+        -> New line
+    '''
 
 
 '''
