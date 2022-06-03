@@ -24,3 +24,21 @@ print(cats.getfact())
 
     import thisismodaulenamesolong as mymodule
 '''
+
+
+'''
+    From module
+    เลือกฟังก์ชันบางตัวจาก module มาเพื่อใช้งาน
+    โครงสร้าง
+    from module_name import some_function
+'''
+from cats import geturlcatfact
+
+print(geturlcatfact(2))
+
+
+'''
+    Import all function from module
+    โครงสร้าง
+    from module_name import *
+'''
