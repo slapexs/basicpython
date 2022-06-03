@@ -15,3 +15,12 @@ result_addition = calculate.addition(10,20,30,40,50,60)
 print(result_addition) # 210
 print(calculate.subtraction(10,2)) # 8
 print(cats.getfact())
+
+
+'''
+    Set alias name for module
+    โครงสร้าง
+    import module_name as alias_name
+
+    import thisismodaulenamesolong as mymodule
+'''
